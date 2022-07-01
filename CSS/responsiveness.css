@@ -1,0 +1,26 @@
+@media(max-width:500px){
+ .head{
+    font-size: 30px;
+ }
+}
+@media(min-width:800px) and (max-width:1000px){
+   .navbar-nav .nav-item .nav-link{
+    font-weight: 700;
+    color: white;
+   }
+}
+@media(max-width:800px){
+   .down{
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../image/banner2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 30px;
+      height:100vh;
+      color:white;
+  }
+  .down1{
+   position:relative;
+   top:20%;
+  }
+}
